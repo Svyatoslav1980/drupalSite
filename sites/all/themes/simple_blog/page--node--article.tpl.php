@@ -17,7 +17,7 @@
       </div>
     </div>
   </nav>
-<?php print render($node->field_image['und'][0]['filename']); ?>
+
   <!-- Page Header -->
   <header class="masthead" style="background-image: url('../sites/default/files/field/image/<?php print render($node->field_image['und'][0]['filename']);?>')">
     <div class="overlay"></div>
